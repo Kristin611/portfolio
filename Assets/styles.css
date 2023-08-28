@@ -1,0 +1,59 @@
+:root {
+    --body-background-color: rgb(191, 151, 200);
+    --nav-color: rgb(108, 44, 123);
+    --font-color: white; 
+
+}
+
+.header {
+background-color: var(--nav-color);
+}
+
+
+.header h1 {
+    background-color: var(--body-background-color);
+    color: var(--font-color);
+    text-align: center;
+    height: 50px;
+    font-size: 40px;
+    
+}
+
+.nav {
+    background-color: var(--nav-color);
+    color: var(--font-color);
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.nav li {
+    display: inline;
+    
+}
+
+.nav-1, .nav-2, .nav-3 {
+    font-size: 20px;
+    display: flex;
+    
+}
+
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.flex-container {
+    background-color: var(--nav-color);
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    }
+
+  
+
+
+
