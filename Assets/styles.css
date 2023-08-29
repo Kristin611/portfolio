@@ -1,8 +1,13 @@
 :root {
     --body-background-color: rgb(191, 151, 200);
     --nav-color: rgb(108, 44, 123);
-    --font-color: white; 
+    --font-color: white;
 
+}
+
+body {
+    background-color: var(--body-background-color);
+    border-color: var(--nav-color);
 }
 
 .header {
@@ -30,7 +35,7 @@ background-color: var(--nav-color);
 
 .nav ul {
     display: flex;
-    gap: 1rem;
+    gap: 5rem;
 }
 
 .nav li {
@@ -64,13 +69,14 @@ img {
     max-width: 25rem;
     padding: 3rem;
     border-style: double;
+    gap: 10rem;
     }
 
   .right-side {
     background-color: green;
     display: flex;
     flex-direction: column;
-    max-width: 70rem;
+    max-width: 100rem;
     min-width: 35rem;
   }
 
@@ -79,14 +85,14 @@ img {
 }
 
 .image-wrapper {
-    width: 10rem;
+    width: 15rem;
     border-radius: 5px;
     box-shadow: 4px 4px 8px rgba(0,0,0,0.6);
 }
 
 .about-me {
     display: flex;
-    gap: 7rem;
+    gap: 8rem;
 }
 
 .projects {
@@ -96,11 +102,22 @@ img {
     background-color: blue;
     gap: 5rem;
     
+    
+}
+
+.horiseon-img {
+    width: 25rem;   
 }
 
 .contact {
     background-color: peachpuff;
     display: flex;
     justify-content: space-evenly;
+}
+
+footer {
+    background: var(--body-background-color);
+    text-align: center;
+    height: 50px;
 }
 
