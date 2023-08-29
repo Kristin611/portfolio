@@ -62,6 +62,7 @@ img {
 
 .flex-container {
     background-color: var(--nav-color);
+    color: var(--font-color);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -92,7 +93,7 @@ img {
 
 .about-me {
     display: flex;
-    gap: 8rem;
+    gap: 3rem;
 }
 
 .projects {
@@ -110,7 +111,8 @@ img {
 }
 
 .contact {
-    background-color: peachpuff;
+    background-color: var(--nav-color);
+    color: var(--font-color);
     display: flex;
     justify-content: space-evenly;
 }
