@@ -28,6 +28,11 @@ background-color: var(--nav-color);
     
 }
 
+.nav ul {
+    display: flex;
+    gap: 1rem;
+}
+
 .nav li {
     display: inline;
     
@@ -46,14 +51,56 @@ img {
     height: auto;
 }
 
+.content-wrapper {
+    display: flex;
+}
+
 .flex-container {
     background-color: var(--nav-color);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     justify-content: space-evenly;
+    max-width: 25rem;
+    padding: 3rem;
+    border-style: double;
     }
 
-  
+  .right-side {
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    max-width: 70rem;
+    min-width: 35rem;
+  }
 
+img {
+    width: 100%;
+}
 
+.image-wrapper {
+    width: 10rem;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.6);
+}
+
+.about-me {
+    display: flex;
+    gap: 7rem;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: blue;
+    gap: 5rem;
+    
+}
+
+.contact {
+    background-color: peachpuff;
+    display: flex;
+    justify-content: space-evenly;
+}
 
