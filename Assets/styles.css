@@ -46,6 +46,9 @@ background-color: var(--nav-color);
 .nav-1, .nav-2, .nav-3 {
     font-size: 20px;
     display: flex;
+    border-style: double;
+    border-radius: 5%;
+    padding: 5px;
     
 }
 
@@ -100,16 +103,28 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: blue;
+    background-color: var(--body-background-color);
     gap: 5rem;
     
     
 }
 
 .horiseon-img {
-    width: 25rem;   
+    width: 25rem; 
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.6);  
+    padding: 15px;
 }
+figcaption {
+    background-color: var(--nav-color);
+    color: var(--font-color);
+    text-align: center;
+    padding: 7px;
+    width: 30%;
+    margin: 10px;
+    border-style: double;
+    border-radius: 5%;
 
+}
 .contact {
     background-color: var(--nav-color);
     color: var(--font-color);
