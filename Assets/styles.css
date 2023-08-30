@@ -92,10 +92,11 @@ img {
 p {
     color: var(--font-color);
     margin: 40px;
+
 }
 
 .image-wrapper {
-    width: 20rem;
+    width: 40rem;
     border-radius: 5px;
     box-shadow: 4px 4px 8px rgba(0,0,0,0.6);
     margin: 60px;
@@ -163,4 +164,27 @@ footer {
     text-align: center;
     height: 50px;
 }
+
+@media screen and (max-width: 768px) {
+    nav {
+      background-color: var(--nav-color);
+      width: 100%;
+    }
+
+    .header h1 {
+        text-align: center;
+    }
+
+    .image-wrapper {
+        width: 50rem;
+        border-radius: 5px;
+        box-shadow: 4px 4px 8px rgba(0,0,0,0.6);
+        margin: 60px;
+    }
+
+    .horiseon-img {
+        width: 30rem;
+    }
+
+  }
 
