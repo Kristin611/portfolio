@@ -2,6 +2,7 @@
     --body-background-color: black;
     --nav-color: rgb(42, 62, 106) ;
     --font-color: white;
+    --font-type: 'Raleway', sans-serif; 
 
 }
 
@@ -21,6 +22,7 @@ background-color: var(--nav-color);
     text-align: center;
     height: 50px;
     font-size: 40px;
+    font-family: var(--font-type)
     
 }
 
@@ -41,6 +43,7 @@ background-color: var(--nav-color);
 .nav li {
     display: inline;
     
+    
 }
 
 .nav-1, .nav-2, .nav-3 {
@@ -49,9 +52,13 @@ background-color: var(--nav-color);
     border-style: double;
     border-radius: 5%;
     padding: 5px;
+    font-family: var(--font-type)
     
 }
 
+.a-nav {
+    color: var(--font-color);
+}
 
 img {
     display: block;
@@ -73,7 +80,8 @@ img {
     max-width: 25rem;
     padding: 3rem;
     border-style: double;
-    gap: 10rem;
+    gap: 29rem;
+    font-family: var(--font-type)
     }
 
   .right-side {
@@ -92,6 +100,7 @@ img {
 p {
     color: var(--font-color);
     margin: 40px;
+    font-family: var(--font-type)
 
 }
 
@@ -105,6 +114,7 @@ p {
 .about-me {
     display: flex;
     gap: 3rem;
+    
 }
 
 .projects {
@@ -131,6 +141,7 @@ p {
     margin: 10px;
     border-style: double;
     border-radius: 5%;
+    font-family: var(--font-type)
 
 }
 
@@ -149,6 +160,7 @@ p {
     margin: 7px;
     border-style: double;
     border-radius: 5%;
+    font-family: var(--font-type)
 }
 
 .contact {
@@ -163,6 +175,7 @@ footer {
     color: white;
     text-align: center;
     height: 50px;
+    font-family: var(--font-type)
 }
 
 @media screen and (max-width: 768px) {
