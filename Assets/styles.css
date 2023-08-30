@@ -89,10 +89,16 @@ img {
     height: 180px;
 }
 
+p {
+    color: var(--font-color);
+    margin: 40px;
+}
+
 .image-wrapper {
-    width: 15rem;
+    width: 20rem;
     border-radius: 5px;
     box-shadow: 4px 4px 8px rgba(0,0,0,0.6);
+    margin: 60px;
 }
 
 .about-me {
