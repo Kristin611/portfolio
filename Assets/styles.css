@@ -110,11 +110,11 @@ img {
 }
 
 .horiseon-img {
-    width: 25rem; 
+    width: 40rem; 
     box-shadow: 4px 4px 8px rgba(0,0,0,0.6);  
     padding: 15px;
 }
-figcaption {
+.hor-cap {
     background-color: var(--nav-color);
     color: var(--font-color);
     text-align: center;
@@ -125,6 +125,24 @@ figcaption {
     border-radius: 5%;
 
 }
+
+.google-img {
+    width: 20rem;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.6);
+    padding: 20px; 
+}
+
+.google-cap {
+    background-color: var(--nav-color);
+    color: var(--font-color);
+    text-align: center;
+    padding: 7px;
+    width: 15%;
+    margin: 7px;
+    border-style: double;
+    border-radius: 5%;
+}
+
 .contact {
     background-color: var(--nav-color);
     color: var(--font-color);
