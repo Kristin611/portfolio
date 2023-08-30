@@ -7,3 +7,7 @@ First, through this project, I was able to practice and apply many of the HTML a
 Second, this project is useful because I have essentially created a portfolio that I can use once I graduate from the boot camp. Once I graduate, I will have a job-ready portfolio that I can submit to potential employers. The quality of the portfolio and the projects linked will demonstrate my skills and abilities to potential employers. I plan to keep revising and editing the portfolio throughout the duration of the boot camp.
 
 A challenge that I faced while creating my portfolio was mastering flexbox. I want to master flexbox because it is a type of layout that is versatile and responsive. I know that learning it will pay off in the long run. 
+
+
+<img width="1261" alt="Screenshot 2023-08-30 at 5 38 43 PM" src="https://github.com/Kristin611/portfolio/assets/131815565/e6297320-0f3a-4822-9ad8-4581e0d1ff47">
+
