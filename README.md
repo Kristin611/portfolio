@@ -8,6 +8,8 @@ Second, I will have a job-ready portfolio that I can submit to potential employe
 
 A challenge that I faced while creating my portfolio was mastering flexbox. I want to master flexbox because it is a type of layout that is versatile and responsive. I know that learning it will pay off in the long run. 
 
+A note on responsiveness: The Acceptance Criteria did not specify which dimensions we should make our application responsive to. For this assignment, I set the max-width to 768px since that is the layout for large smart phones. I picked these dimensions because large smart phones are a common mobile device today. 
+
 
 <img width="1261" alt="Screenshot 2023-08-30 at 5 38 43 PM" src="https://github.com/Kristin611/portfolio/assets/131815565/e6297320-0f3a-4822-9ad8-4581e0d1ff47">
 
